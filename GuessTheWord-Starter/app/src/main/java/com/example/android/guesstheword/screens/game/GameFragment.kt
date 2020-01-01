@@ -55,7 +55,7 @@ class GameFragment : Fragment() {
 
         Log.i("GameFragment", "Called ViewModelProviders.of")
         viewModel = ViewModelProviders.of(this).get(GameViewModel::class.java)
-       
+
 
 
         // Observer for the Game finished event
